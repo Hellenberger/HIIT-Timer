@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HIIT Timer.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>3A0E9D4221E0925E26AB7FAC6764B5BBF080AA31</string>
+				<key>dateExpires</key>
+				<string>1/7/24</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>S4D83HCYW4.com.browser.viewer.HIIT-Timer</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>S4D83HCYW4</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>HIIT Timer.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>2328b28c-55f3-4385-a7df-34857c11c765</string>
+				<key>dateExpires</key>
+				<string>1/7/24</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.browser.viewer.HIIT-Timer</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>S4D83HCYW4</string>
+				<key>name</key>
+				<string>Howard Ellenberger</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

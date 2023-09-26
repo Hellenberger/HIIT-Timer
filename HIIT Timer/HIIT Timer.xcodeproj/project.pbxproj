@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DA083C6296914990004D2A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA083C5296914990004D2A6 /* AppDelegate.swift */; };
+		3DA083C8296914990004D2A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA083C7296914990004D2A6 /* SceneDelegate.swift */; };
+		3DA083CA296914990004D2A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA083C9296914990004D2A6 /* ViewController.swift */; };
+		3DA083CD296914990004D2A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA083CB296914990004D2A6 /* Main.storyboard */; };
+		3DA083CF2969149B0004D2A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA083CE2969149B0004D2A6 /* Assets.xcassets */; };
+		3DA083D22969149B0004D2A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA083D02969149B0004D2A6 /* LaunchScreen.storyboard */; };
+		3DA083DC296A02120004D2A6 /* HI_Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA083D9296A02110004D2A6 /* HI_Alarm.mp3 */; };
+		3DA083DD296A02120004D2A6 /* End_Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA083DA296A02110004D2A6 /* End_Alarm.mp3 */; };
+		3DA083DE296A02120004D2A6 /* LI_Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA083DB296A02120004D2A6 /* LI_Alarm.mp3 */; };
+		3DA083E0296A07090004D2A6 /* ping.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA083DF296A07080004D2A6 /* ping.mp3 */; };
+		3DA083E2296A5A5A0004D2A6 /* HIIT_Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DA083E1296A5A5A0004D2A6 /* HIIT_Icon.jpg */; };
+		3DA083E6296A5BD40004D2A6 /* HIIT_Icon_1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DA083E5296A5BD40004D2A6 /* HIIT_Icon_1024.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DA083C2296914990004D2A6 /* HIIT Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HIIT Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA083C5296914990004D2A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DA083C7296914990004D2A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DA083C9296914990004D2A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DA083CC296914990004D2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DA083CE2969149B0004D2A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DA083D12969149B0004D2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DA083D32969149B0004D2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA083D9296A02110004D2A6 /* HI_Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HI_Alarm.mp3; sourceTree = "<group>"; };
+		3DA083DA296A02110004D2A6 /* End_Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = End_Alarm.mp3; sourceTree = "<group>"; };
+		3DA083DB296A02120004D2A6 /* LI_Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LI_Alarm.mp3; sourceTree = "<group>"; };
+		3DA083DF296A07080004D2A6 /* ping.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ping.mp3; sourceTree = "<group>"; };
+		3DA083E1296A5A5A0004D2A6 /* HIIT_Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HIIT_Icon.jpg; sourceTree = "<group>"; };
+		3DA083E5296A5BD40004D2A6 /* HIIT_Icon_1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = HIIT_Icon_1024.jpg; path = "HIIT Timer/HIIT_Icon_1024.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA083BF296914990004D2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA083B9296914990004D2A6 = {
+			isa = PBXGroup;
+			children = (
+				3DA083E1296A5A5A0004D2A6 /* HIIT_Icon.jpg */,
+				3DA083E5296A5BD40004D2A6 /* HIIT_Icon_1024.jpg */,
+				3DA083DF296A07080004D2A6 /* ping.mp3 */,
+				3DA083DA296A02110004D2A6 /* End_Alarm.mp3 */,
+				3DA083D9296A02110004D2A6 /* HI_Alarm.mp3 */,
+				3DA083DB296A02120004D2A6 /* LI_Alarm.mp3 */,
+				3DA083C4296914990004D2A6 /* HIIT Timer */,
+				3DA083C3296914990004D2A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA083C3296914990004D2A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA083C2296914990004D2A6 /* HIIT Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DA083C4296914990004D2A6 /* HIIT Timer */ = {
+			isa = PBXGroup;
+			children = (
+				3DA083C5296914990004D2A6 /* AppDelegate.swift */,
+				3DA083C7296914990004D2A6 /* SceneDelegate.swift */,
+				3DA083C9296914990004D2A6 /* ViewController.swift */,
+				3DA083CB296914990004D2A6 /* Main.storyboard */,
+				3DA083CE2969149B0004D2A6 /* Assets.xcassets */,
+				3DA083D02969149B0004D2A6 /* LaunchScreen.storyboard */,
+				3DA083D32969149B0004D2A6 /* Info.plist */,
+			);
+			path = "HIIT Timer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA083C1296914990004D2A6 /* HIIT Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA083D62969149B0004D2A6 /* Build configuration list for PBXNativeTarget "HIIT Timer" */;
+			buildPhases = (
+				3DA083BE296914990004D2A6 /* Sources */,
+				3DA083BF296914990004D2A6 /* Frameworks */,
+				3DA083C0296914990004D2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HIIT Timer";
+			productName = "HIIT Timer";
+			productReference = 3DA083C2296914990004D2A6 /* HIIT Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA083BA296914990004D2A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3DA083C1296914990004D2A6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3DA083BD296914990004D2A6 /* Build configuration list for PBXProject "HIIT Timer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA083B9296914990004D2A6;
+			productRefGroup = 3DA083C3296914990004D2A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA083C1296914990004D2A6 /* HIIT Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA083C0296914990004D2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA083DD296A02120004D2A6 /* End_Alarm.mp3 in Resources */,
+				3DA083DE296A02120004D2A6 /* LI_Alarm.mp3 in Resources */,
+				3DA083E2296A5A5A0004D2A6 /* HIIT_Icon.jpg in Resources */,
+				3DA083D22969149B0004D2A6 /* LaunchScreen.storyboard in Resources */,
+				3DA083E0296A07090004D2A6 /* ping.mp3 in Resources */,
+				3DA083CF2969149B0004D2A6 /* Assets.xcassets in Resources */,
+				3DA083CD296914990004D2A6 /* Main.storyboard in Resources */,
+				3DA083DC296A02120004D2A6 /* HI_Alarm.mp3 in Resources */,
+				3DA083E6296A5BD40004D2A6 /* HIIT_Icon_1024.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA083BE296914990004D2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA083CA296914990004D2A6 /* ViewController.swift in Sources */,
+				3DA083C6296914990004D2A6 /* AppDelegate.swift in Sources */,
+				3DA083C8296914990004D2A6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DA083CB296914990004D2A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA083CC296914990004D2A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DA083D02969149B0004D2A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA083D12969149B0004D2A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DA083D42969149B0004D2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DA083D52969149B0004D2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DA083D72969149B0004D2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HIIT Timer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browser.viewer.HIIT-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3DA083D82969149B0004D2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HIIT Timer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browser.viewer.HIIT-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA083BD296914990004D2A6 /* Build configuration list for PBXProject "HIIT Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA083D42969149B0004D2A6 /* Debug */,
+				3DA083D52969149B0004D2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA083D62969149B0004D2A6 /* Build configuration list for PBXNativeTarget "HIIT Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA083D72969149B0004D2A6 /* Debug */,
+				3DA083D82969149B0004D2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DA083BA296914990004D2A6 /* Project object */;
+}
